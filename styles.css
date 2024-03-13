@@ -16,7 +16,7 @@ body{
     "buttons";
 }
 
-.display {
+#display {
     grid-area: display;
     background-color: black;
     padding: 10px;
@@ -35,7 +35,7 @@ body{
     gap: 5px;
   }
 
-/*
+
 .button {
     background-color: rgb(59, 59, 59);
     border: none;
@@ -48,7 +48,7 @@ body{
     justify-content: center;
     align-items: center;
   }
-*/
+
   .button:hover{
     scale: 1.03;
     background-color: grey;
