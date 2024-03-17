@@ -14,17 +14,16 @@ body{
     grid-template-areas:
     "display"
     "buttons";
+    grid-template-rows: 1fr 4fr; /* Adjust the ratio here */
 }
 
 #display {
     grid-area: display;
     background-color: black;
     padding: 10px;
-    font-size: 24px;
     text-align: right;
-    grid-template-columns: repeat(1, 1fr); 
-    grid-template-rows: repeat(1, 1fr); 
     color: white;
+    font-size: 40px;
   }
   
   .buttons {
@@ -49,6 +48,14 @@ body{
     align-items: center;
   }
 
+  #ac{
+    background-color: brown;
+  }
+  
+  #equal{
+    background-color: rgb(102, 100, 100);
+  }
+
   .button:hover{
     scale: 1.03;
     background-color: grey;
@@ -61,3 +68,4 @@ body{
   .double-row {
     grid-row: span 2;
   }
+
